@@ -1,0 +1,101 @@
+body {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  font-size: 81.25%;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*-------------Navbar------------*/
+nav {
+  padding: 8px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0 4px;
+  height: 48px;
+  vertical-align: middle;
+}
+
+.nav-p {
+  padding: 4px 2px 4px 6px;
+}
+
+.nav-g {
+  padding-right: 15px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+.nav-g:hover {
+  text-decoration: underline;
+}
+
+.nav-m {
+  padding: 16px 12px;
+}
+
+#profilePhoto {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0px 4px;
+}
+
+#menudots {
+  width: 16px;
+  height: 16px;
+}
+
+/*-------------Content------------*/
+#content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*-------------Logo------------*/
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 200px;
+  margin-bottom: 38px;
+}
+
+#logo img {
+  height: 92px;
+}
+
+/*-------------Search Bar------------*/

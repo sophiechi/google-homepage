@@ -1,0 +1,71 @@
+body {
+  font-family: Roboto, "Segoe UI", Tahoma, sans-serif;
+  font-size: 81.25%;
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*-------------Navbar------------*/
+nav {
+  padding: 8px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  justify-content: flex-end;
+  padding: 0 4px;
+  height: 48px;
+  vertical-align: middle;
+}
+
+.nav-p {
+  padding: 4px 2px 4px 6px;
+}
+.nav-g {
+  padding-right: 15px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+.nav-g:hover {
+  text-decoration: underline;
+}
+.nav-m {
+  padding: 16px 12px;
+}
+
+#profilePhoto {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0px 4px;
+}
+#menudots {
+  width: 16px;
+  height: 16px;
+}
+
+/*-------------Content------------*/
+#content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/*-------------Logo------------*/
+#logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  img {
+    height: 92px;
+  }
+  height: 200px;
+  margin-bottom: 38px;
+}
+/*-------------Search Bar------------*/
